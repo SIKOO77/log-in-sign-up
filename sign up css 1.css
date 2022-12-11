@@ -1,0 +1,137 @@
+body {
+    background-image: -webkit-linear-gradient(top left, #3d02e0, #f1159d);
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-side{
+    background-color:red;
+    background-image: -webkit-linear-gradient(top left, #3d02de, #f1159d);
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left:20px;
+    
+    display: inline-block   ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 20px 5px  #000000;
+}
+
+div > h1 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+div > p {
+    text-align: center;
+    padding-top: 50px   ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+div > a {
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    border-width: 2px;
+    color:white;
+    border-style:double;
+    padding: 10px;
+    border-color: purple;
+    border-radius: 50px;
+    text-decoration: none;
+    
+   
+}
+.form-input{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    float: left;
+    top: 50px;
+    left:472px;
+    width: 840px;
+    height: 550px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 0px 20px 2px  #000000;
+
+    
+}
+.up{
+    position: absolute; 
+    color: red;
+    top: -60px;
+    left: 350px;
+    color: grey;
+    font-weight: lighter;
+    
+}
+input{
+    position: relative;
+    top: 120px;
+    left: 220px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 360px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color:rgb(211, 72, 211);
+    outline: none;
+}
+input::placeholder{ 
+    font-weight: bolder;
+    opacity: .5;
+    color: grey;
+
+}
+#terms{
+    width: 16px;
+    margin-left: 110px;
+}
+label{
+        position: absolute;
+        top: 400px;
+        left: 350px;
+}
+button{
+    margin-left: 380px; 
+    background-color:transparent;
+    padding: 15px;
+    position: absolute;
+    top:430px;
+    border-color:rgb(73, 73, 228) ;
+    cursor: pointer;
+}
+#account{
+    color: red;
+    position: absolute;
+    top: 490px;
+    left: 320px;
+    color: grey;
+    border: none;
+}
+button:hover{
+    opacity: 0.5;
+    border-color: purple;
+    transition: .5s;
+}
+input .input-field{
+    border: 1px solid black;
+}
+form input:hover, form input:focus{
+  border-bottom: 2px solid  hsl(256, 98%, 44%);
+  border-radius: 5%;
+}
+
+form input::placeholder{
+  color: #6b6b6b;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
